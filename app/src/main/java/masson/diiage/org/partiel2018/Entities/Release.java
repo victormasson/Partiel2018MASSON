@@ -31,7 +31,7 @@ public class Release {
     private String format;
     private String title;
     private String catno;
-    private int year;
+    private long year;
     private String resourceUrl;
     private String artist;
     private long id;
@@ -75,7 +75,7 @@ public class Release {
         this.title = title;
     }
 
-    public Release(String status, String thumb, String format, String title, String catno, int year, String resourceUrl, String artist, int id) {
+    public Release(String status, String thumb, String format, String title, String catno, long year, String resourceUrl, String artist, long id) {
         this.status = status;
         this.thumb = thumb;
         this.format = format;
@@ -127,11 +127,11 @@ public class Release {
         this.catno = catno;
     }
 
-    public int getYear() {
+    public long getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(long year) {
         this.year = year;
     }
 
