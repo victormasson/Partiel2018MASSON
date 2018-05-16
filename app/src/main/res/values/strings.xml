@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Partiel2018MASSON</string>
+    <string name="urlApi">https://my-json-server.typicode.com/lpotherat/discogs-data/releases</string>
+</resources>
